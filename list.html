@@ -1,0 +1,382 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>电影社区-Mtime时光网</title>
+<link rel="shortcut icon"  href="images/favicon.ico" />
+<link rel="stylesheet" type="text/css" href="css/common.css" />
+<link rel="stylesheet" type="text/css" href="css/list.css" />
+<script src="js/jQuery-1.11.3.min.js"></script>
+<script src="js/list.js"></script>
+</head>
+<script>
+(function(){
+	if(!
+	/*@cc_on!@*/
+	0)return;
+	var e = "abbr,article,aside,audio,canvas,datalist,details,dialog,eventsource,figure,footer,header,hgroup,mark,menu,meter,nav,output,progress,section,time,video".split(', ');
+	var i = e.length;
+	while(i--){
+		document.createElement(e[i])
+	}
+})()
+</script>
+<body>
+<!--导航 start-->
+<nav>
+<ul>
+<li><a href="index.html">首页</a></li><li><a href="detail.html">购票</a></li><li><a href="detail.html">新闻</a></li><li><a href="detail.html">发现</a></li><li><a href="detail.html">社区</a></li>
+</ul>
+<a href="index.html"><div class="logo"></div></a>
+<ol>
+<li><a href="detail.html">app下载</a></li><li><a href="register.html">登录</a></li><li><a href="register.html">注册</a></li>
+</ol>
+</nav>
+<!--导航 end-->
+<!--头部图片展示区 start-->
+<header>
+<div class="left"></div>
+<div class="right"></div>
+<div class="left-arrow" id="left"></div>
+<div class="right-arrow" id="right"></div>
+<img src="images/10-3.png" alt="mm">
+<img src="images/10-2.png" alt="mm">
+<img src="images/10-7.png" alt="mm">
+<img src="images/10-5.jpg" alt="mm">
+<ul>
+<li></li><li></li><li></li><li></li>
+</ul>
+</header>
+<!--头部下方热门活动 start-->
+<div id="huodong">
+<div class="title">
+<span>热门活动</span><span>热门评论文章</span>
+</div>
+<div class="middle-wrap">
+<div class="huodong">
+<div class="top">
+<ul>
+<li class="begin"><a href="detail.html">推荐</a><i>|</i></li>
+<li class="begin"><a href="detail.html">影评</a><i>|</i></li>
+<li class="begin"><a href="detail.html">话题</a><i>|</i></li>
+<li class="begin"><a href="detail.html">活动</a></li>
+</ul>
+</div>
+<hr width="580" size="5" color="#000000";>
+<!--主体第一张卡片 start-->
+<div class="card1">
+<span>有奖活动</span>
+<p>沃顿世界中的美艳造型，你最迷哪一款</p>
+<span>有奖活动</span><span>我参加</span>
+<p>写下你心中最美丽、最哥特、最惊艳的属于“鬼才导演”的造型，就有机获得影片精美周边哦！</p>
+<span>查看更多活动>></span>
+<a href="detail.html"><img src="images/7-30.jpg" alt="佩琪小姐" /></a>
+</div></div>
+<!--头部下方热门活动 end-->
+<!--头部下方热门评论 start-->
+<div class="card">
+<img src="images/7-25.jpg" alt="佩小姐的奇幻城堡" class="img" />
+<div class="person"><img src="images/7-22.jpg" alt="头像"></div>
+<h1>另一片土地上的X教授</h1>
+<div class="passage">
+<div class="passage-wrap">
+<div class="icon"></div>
+<p>这里的暗黑甚至是血腥并不适合孩子，但在成人来看其又只是一个童话，所以本质就是一场商业色彩浓郁的青少年电影。人物感情上的空洞注定了不可能与昔日经典一概而论。</p>
+<div class="judge">梦里诗书 评 《佩小姐的奇幻城堡》<span>6.0</span></div>
+<hr width="400" color="#D6D6D6" />
+<div class="judge-display">主持人古尼玛说：<br><span></span></div>
+<div class="judge-display">杰森13说：<br><span></span></div>
+<div class="judge-display">会飞的鸟说：<br><span></span></div>
+<input class="input" type="text" value="发表评论" />
+</div></div>
+</div>
+</div></div>
+<!--头部下方热门评论 end-->
+<!--主体 start-->
+<div class="pagebody">
+<!--主体左侧栏 start-->
+<div class="left-float" id="nn">
+<a href="detail.html">最热门</a><br>
+<a href="detail.html">深阅读</a><br>
+<a href="detail.html">我要评论</a><br>
+<a href="detail.html">我要转发</a> </div>
+<!--<div id="left-float-a">
+<a href="detail.html">最热门</a><br>
+<a href="detail.html">深阅读</a><br>
+<a href="detail.html">我要评论</a><br>
+<a href="detail.html">我要转发</a> </div>-->
+<!--主体左侧栏 end-->
+<!--中间主栏目 start-->
+<div class="mainbox">
+<!--第一张-->
+<div class="cardlist">
+<img src="images/7-25.jpg" alt="佩小姐的奇幻城堡" class="img" id="img-1" />
+<div class="person"><img src="images/7-14.jpg" alt="头像"></div>
+<h1>别提什么战警，他们还只是孩子</h1>
+<div class="judge"><i>梦里诗书</i> 评 <i>《佩小姐的奇幻城堡》</i><span>6.0</span></div>
+<div class="passage">
+<div class="passage-wrap">
+<div class="icon"></div>
+<p>但作为蒂姆波顿风格的影片来讲，本片只能得到65分，因为蒂姆波顿显得过于拘谨了，他那些擅长的元素并没有太多的展示。<em>查看全文</em></p>
+<div class="judge-display">主持人古尼玛说：<br><span></span></div>
+<div class="judge-display">杰森13说：<br><span></span></div>
+<div class="judge-display">会飞的鸟说：<br><span></span></div>
+<input class="input" type="text" value="发表评论" />
+</div></div>
+</div>
+<!--第二张-->
+<div class="cardlist">
+<img src="images/7-31.jpg" alt="佩小姐的奇幻城堡" class="img" id="img-2" />
+<div class="person"><img src="images/7-15.jpg" alt="头像"></div>
+<h1>神奇动物在哪里？百科全书在这里！</h1>
+<div class="judge"><i>仲山奥理</i> 评 <i>《神奇动物在哪里》</i><span>8.0</span></div>
+<div class="passage">
+<div class="passage-wrap">
+<div class="icon"></div>
+<p>《神奇动物在哪里》不仅涵盖了神奇动物饲养学的历史，还详述了85种神奇动物，可以说是神奇动物的百科全书！<em>查看全文</em></p>
+<div class="judge-display">主持人古尼玛说：<br><span></span></div>
+<div class="judge-display">杰森13说：<br><span></span></div>
+<div class="judge-display">会飞的鸟说：<br><span></span></div>
+<input class="input" type="text" value="发表评论" />
+</div></div>
+</div>
+<!--第三张-->
+<div class="cardlist">
+<img src="images/7-25.jpg" alt="佩小姐的奇幻城堡" class="img" id="img-3" />
+<div class="person"><img src="images/7-16.jpg" alt="头像"></div>
+<h1>皮特让人羡慕嫉妒恨的10个性感瞬间</h1>
+<div class="judge"><i>革脚力</i> 来自群组 <i>布拉德皮特 Brad pitt</i></div>
+<div class="passage">
+<div class="passage-wrap">
+<div class="icon"></div>
+<p>二十多年来，在大批男性女性粉丝持续的追捧下，他让人着迷的肉体已经变成了好莱坞的性感传奇。<em>查看全文</em></p>
+<div class="judge-display">主持人古尼玛说：<br><span></span></div>
+<div class="judge-display">杰森13说：<br><span></span></div>
+<div class="judge-display">会飞的鸟说：<br><span></span></div>
+<input class="input" type="text" value="发表评论" />
+</div></div>
+</div>
+<!--第四张-->
+<div class="cardlist">
+<img src="images/7-32.jpg" alt="佩小姐的奇幻城堡" class="img" id="img-4" />
+<div class="person"><img src="images/7-17.jpg" alt="头像"></div>
+<h1>记不起来的记忆——《你的名字》</h1>
+<div class="judge"><i>Shlli</i> 评 <i>《你的名字》</i><span>8.0</span></div>
+<div class="passage">
+<div class="passage-wrap">
+<div class="icon"></div>
+<p>你尽可以说她剧作上手法上有各种各样的缺陷，但是，你可以找到当初爱上电影的原因。不信你看完电影后再去看看海报。<em>查看全文</em></p>
+<div class="judge-display">主持人古尼玛说：<br><span></span></div>
+<div class="judge-display">杰森13说：<br><span></span></div>
+<div class="judge-display">会飞的鸟说：<br><span></span></div>
+<input class="input" type="text" value="发表评论" />
+</div></div>
+</div>
+<!--第五张-->
+<div class="cardlist">
+<img src="images/12-2.jpg" alt="佩小姐的奇幻城堡" class="img" id="img-5" />
+<div class="person"><img src="images/7-17.jpg" alt="头像"></div>
+<h1>成长，从“星仔”加冕为“星爷”</h1>
+<div class="judge"><i>鲜有废客</i> 来自群组： <i>时光码字委员会</i><span>6.0</span></div>
+<div class="passage">
+<div class="passage-wrap">
+<div class="icon"></div>
+<p>紧承着“外来小子闯天涯”的套路，由左颂升、罗维、元奎等人导演的动作片——《新精武门1991》为周星驰在1991年打响第一炮。<em>查看全文</em></p>
+<div class="judge-display">主持人古尼玛说：<br><span></span></div>
+<div class="judge-display">杰森13说：<br><span></span></div>
+<div class="judge-display">会飞的鸟说：<br><span></span></div>
+<input class="input" type="text" value="发表评论" />
+</div></div>
+</div>
+<!--第六张-->
+<div class="cardlist">
+<img src="images/12-3.jpg" alt="佩小姐的奇幻城堡" class="img" id="img-6" />
+<div class="person"><img src="images/7-17.jpg" alt="头像"></div>
+<h1>回忆——《西西里的美丽传说》</h1>
+<div class="judge"><i>耳召召</i> 评 <i>《西西里的美丽传说》</i><span>6.0</span></div>
+<div class="passage">
+<div class="passage-wrap">
+<div class="icon"></div>
+<p>情色之外，影片想要挖掘的更深层的意义。也是《海上钢琴师》《天堂电影院》《西西里的美丽传说》合称为“寻找三部曲”的原因。<em>查看全文</em></p>
+<div class="judge-display">主持人古尼玛说：<br><span></span></div>
+<div class="judge-display">杰森13说：<br><span></span></div>
+<div class="judge-display">会飞的鸟说：<br><span></span></div>
+<input class="input" type="text" value="发表评论" />
+</div></div>
+</div>
+<!--第七张-->
+<div class="cardlist">
+<img src="images/12-4.jpg" alt="佩小姐的奇幻城堡" class="img" id="img-7" />
+<div class="person"><img src="images/7-17.jpg" alt="头像"></div>
+<h1>《007-大战皇家赌场》</h1>
+<div class="judge"><i>卡斯蒂</i> 评 <i>《007-皇家赌场》</i><span>6.0</span></div>
+<div class="passage">
+<div class="passage-wrap">
+<div class="icon"></div>
+<p>「詹姆斯·邦德」或许是这星球上最难甄选的角色之一，围绕着他的选角每次都会产生许多话题，不仅是因为「邦德」这一形象历史悠..<em>查看全文</em></p>
+<div class="judge-display">主持人古尼玛说：<br><span></span></div>
+<div class="judge-display">杰森13说：<br><span></span></div>
+<div class="judge-display">会飞的鸟说：<br><span></span></div>
+<input class="input" type="text" value="发表评论" />
+</div></div>
+</div>
+<!--第八张-->
+<div class="cardlist">
+<img src="images/12-5.jpg" alt="佩小姐的奇幻城堡" class="img" id="img-8" />
+<div class="person"><img src="images/7-17.jpg" alt="头像"></div>
+<h1>《007-大战皇家赌场》</h1>
+<div class="judge"><i>卡斯蒂</i> 评 <i>《007-皇家赌场》</i><span>6.0</span></div>
+<div class="passage">
+<div class="passage-wrap">
+<div class="icon"></div>
+<p>「詹姆斯·邦德」或许是这星球上最难甄选的角色之一，围绕着他的选角每次都会产生许多话题，不仅是因为「邦德」这一形象历史悠..<em>查看全文</em></p>
+<div class="judge-display">主持人古尼玛说：<br><span></span></div>
+<div class="judge-display">杰森13说：<br><span></span></div>
+<div class="judge-display">会飞的鸟说：<br><span></span></div>
+<input class="input" type="text" value="发表评论" />
+</div></div>
+</div>
+<!--第九张-->
+<div class="cardlist">
+<img src="images/12-6.jpg" alt="佩小姐的奇幻城堡" class="img" id="img-9" />
+<div class="person"><img src="images/7-17.jpg" alt="头像"></div>
+<h1>《007-大战皇家赌场》</h1>
+<div class="judge"><i>卡斯蒂</i> 评 <i>《007-皇家赌场》</i><span>6.0</span></div>
+<div class="passage">
+<div class="passage-wrap">
+<div class="icon"></div>
+<p>「詹姆斯·邦德」或许是这星球上最难甄选的角色之一，围绕着他的选角每次都会产生许多话题，不仅是因为「邦德」这一形象历史悠..<em>查看全文</em></p>
+<div class="judge-display">主持人古尼玛说：<br><span></span></div>
+<div class="judge-display">杰森13说：<br><span></span></div>
+<div class="judge-display">会飞的鸟说：<br><span></span></div>
+<input class="input" type="text" value="发表评论" />
+</div></div>
+</div>
+<!--第十张-->
+<div class="cardlist">
+<img src="images/12-7.jpg" alt="佩小姐的奇幻城堡" class="img" id="img-10" />
+<div class="person"><img src="images/7-17.jpg" alt="头像"></div>
+<h1>《007-大战皇家赌场》</h1>
+<div class="judge"><i>卡斯蒂</i> 评 <i>《007-皇家赌场》</i><span>6.0</span></div>
+<div class="passage">
+<div class="passage-wrap">
+<div class="icon"></div>
+<p>「詹姆斯·邦德」或许是这星球上最难甄选的角色之一，围绕着他的选角每次都会产生许多话题，不仅是因为「邦德」这一形象历史悠..<em>查看全文</em></p>
+<div class="judge-display">主持人古尼玛说：<br><span></span></div>
+<div class="judge-display">杰森13说：<br><span></span></div>
+<div class="judge-display">会飞的鸟说：<br><span></span></div>
+<input class="input" type="text" value="发表评论" />
+</div></div>
+</div>
+<div class="more"><a href="detail.html">查看更多</a></div>
+<!--主体评论列表 end-->
+</div>
+<!--中间主栏目 end-->
+<!--右侧栏 start-->
+<div class="right-float">
+<h2>今日热点</h2>
+<dl>
+<dt><i>1</i><a href="detail.html">【评审员招募ing】封杀十年归来，他依然血性到炸裂</a></dt>
+<dt><i>2</i><a href="detail.html">【评审员招募ing】封杀十年归来，他依然血性到炸裂</a></dt>
+<dt><i>3</i><a href="detail.html">【评审员招募ing】封杀十年归来，他依然血性到炸裂</a></dt>
+<dd><i>4</i><a href="detail.html">这部韩片，既深度致郁又深度治愈</a></dd>
+<dd><i>5</i><a href="detail.html">这部韩片，既深度致郁又深度治愈</a></dd>
+<dd><i>6</i><a href="detail.html">这部韩片，既深度致郁又深度治愈</a></dd>
+</dl>
+</div>
+<!--右侧栏 end-->
+</div>
+<!--主体 end-->
+<!--底部信息 start-->
+<footer>
+<div class="footer-wrap">
+<div class="part">
+<span>热门频道</span>
+<a href="list.html">古装</a><a href="list.html">科幻</a><a href="list.html">喜剧</a><a href="list.html">剧情</a><br/><a href="list.html">现代</a><a href="list.html">战争</a><a href="list.html">动漫</a><a href="list.html">古装</a>
+</div>
+<div class="part">
+<span>特色推荐</span>
+<a href="list.html">原创自媒体</a><a href="list.html">时光出品</a><br/><a href="list.html">微电影</a><a href="list.html">拍客</a><a href="list.html">搞笑</a>
+</div>
+<div class="part">
+<span>软件下载</span>
+<a href="list.html">PC版</a><a href="list.html">iphone版</a><a href="list.html">ipad版</a><a href="list.html">TV版</a><br/><a href="list.html">Android版</a>
+</div>
+<div class="part">
+<span>服务</span>
+<a href="list.html">客服</a><a href="list.html">反馈</a><a href="list.html">帮助</a><br/><a href="list.html">投诉</a><a href="list.html">免广告合作</a>
+</div>
+<div class="tit1">北京动艺时光网络科技有限公司Copyright 2006-2016 Mtime.com Inc. All rights reserved.</div>
+<div class="tit2">京ICP证050715号 网络视听许可证0108265号 网络文化经营许可证 广播电视节目制作经营许可证京字第1435号 京公网安备 110105000744号</div>
+</div>
+</footer>
+<!--底部信息 end-->
+<!--黑屏图片突出显示 start-->
+<div class="blackscreen">
+<div class="blackscreen-wrap">
+<div class="backarticle">继续阅读文章</div>
+<div class="img-top"><div class="img-wrap">
+<div class="one"><img src="images/12-4.jpg" alt="佩小姐的奇幻城堡" /></div>
+<div class="two"><img src="images/12-2.jpg" alt="佩小姐的奇幻城堡" /></div>
+<div class="three"><img src="images/12-3.jpg" alt="佩小姐的奇幻城堡" /></div>
+<div class="four"><img src="images/7-25.jpg" alt="佩小姐的奇幻城堡" /></div>
+<div class="bigger">浏览图册</div></div></div>
+<div class="img-top"><div class="img-wrap">
+<div class="one"><img src="images/7-34.jpg" alt="佩小姐的奇幻城堡" /></div>
+<div class="two"><img src="images/7-32.jpg" alt="佩小姐的奇幻城堡" /></div>
+<div class="three"><img src="images/7-33.jpg" alt="佩小姐的奇幻城堡" /></div>
+<div class="four"><img src="images/7-31.jpg" alt="佩小姐的奇幻城堡" /></div>
+<div class="bigger">浏览图册</div></div></div>
+<div class="img-top"><div class="img-wrap">
+<div class="one"><img src="images/12-4.jpg" alt="佩小姐的奇幻城堡" /></div>
+<div class="two"><img src="images/12-2.jpg" alt="佩小姐的奇幻城堡" /></div>
+<div class="three"><img src="images/12-3.jpg" alt="佩小姐的奇幻城堡" /></div>
+<div class="four"><img src="images/7-25.jpg" alt="佩小姐的奇幻城堡" /></div>
+<div class="bigger">浏览图册</div></div></div>
+<div class="img-top"><div class="img-wrap">
+<div class="one"><img src="images/12-4.jpg" alt="佩小姐的奇幻城堡" /></div>
+<div class="two"><img src="images/7-31.jpg" alt="佩小姐的奇幻城堡" /></div>
+<div class="three"><img src="images/7-34.jpg" alt="佩小姐的奇幻城堡" /></div>
+<div class="four"><img src="images/7-32.jpg" alt="佩小姐的奇幻城堡" /></div>
+<div class="bigger">浏览图册</div></div></div>
+<div class="img-top"><div class="img-wrap">
+<div class="one"><img src="images/12-6.jpg" alt="佩小姐的奇幻城堡" /></div>
+<div class="two"><img src="images/7-31.jpg" alt="佩小姐的奇幻城堡" /></div>
+<div class="three"><img src="images/12-5.jpg" alt="佩小姐的奇幻城堡" /></div>
+<div class="four"><img src="images/12-2.jpg" alt="佩小姐的奇幻城堡" /></div>
+<div class="bigger">浏览图册</div></div></div>
+<div class="img-top"><div class="img-wrap">
+<div class="one"><img src="images/12-6.jpg" alt="佩小姐的奇幻城堡" /></div>
+<div class="two"><img src="images/7-31.jpg" alt="佩小姐的奇幻城堡" /></div>
+<div class="three"><img src="images/12-5.jpg" alt="佩小姐的奇幻城堡" /></div>
+<div class="four"><img src="images/12-3.jpg" alt="佩小姐的奇幻城堡" /></div>
+<div class="bigger">浏览图册</div></div></div>
+<div class="img-top"><div class="img-wrap">
+<div class="one"><img src="images/12-6.jpg" alt="佩小姐的奇幻城堡" /></div>
+<div class="two"><img src="images/7-31.jpg" alt="佩小姐的奇幻城堡" /></div>
+<div class="three"><img src="images/12-5.jpg" alt="佩小姐的奇幻城堡" /></div>
+<div class="four"><img src="images/12-4.jpg" alt="佩小姐的奇幻城堡" /></div>
+<div class="bigger">浏览图册</div></div></div>
+<div class="img-top"><div class="img-wrap">
+<div class="one"><img src="images/12-6.jpg" alt="佩小姐的奇幻城堡" /></div>
+<div class="two"><img src="images/7-31.jpg" alt="佩小姐的奇幻城堡" /></div>
+<div class="three"><img src="images/12-5.jpg" alt="佩小姐的奇幻城堡" /></div>
+<div class="four"><img src="images/12-5.jpg" alt="佩小姐的奇幻城堡" /></div>
+<div class="bigger">浏览图册</div></div></div>
+<div class="img-top"><div class="img-wrap">
+<div class="one"><img src="images/12-6.jpg" alt="佩小姐的奇幻城堡" /></div>
+<div class="two"><img src="images/7-31.jpg" alt="佩小姐的奇幻城堡" /></div>
+<div class="three"><img src="images/12-5.jpg" alt="佩小姐的奇幻城堡" /></div>
+<div class="four"><img src="images/12-6.jpg" alt="佩小姐的奇幻城堡" /></div>
+<div class="bigger">浏览图册</div></div></div>
+<div class="img-top"><div class="img-wrap">
+<div class="one"><img src="images/12-6.jpg" alt="佩小姐的奇幻城堡" /></div>
+<div class="two"><img src="images/7-31.jpg" alt="佩小姐的奇幻城堡" /></div>
+<div class="three"><img src="images/12-5.jpg" alt="佩小姐的奇幻城堡" /></div>
+<div class="four"><img src="images/12-7.jpg" alt="佩小姐的奇幻城堡" /></div>
+<div class="bigger">浏览图册</div></div></div>
+</div>
+</div>
+<!--黑屏图片突出显示 end-->
+</body>
+</html>
